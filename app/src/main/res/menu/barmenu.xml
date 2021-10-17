@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sousuo"
+        android:icon="@drawable/sousuo"
+        app:showAsAction="ifRoom"
+        android:title=""/>
+    <item android:id="@+id/ta"
+        android:icon="@drawable/tainjia"
+        app:showAsAction="ifRoom"
+        android:title="">
+        <menu >
+            <item
+                android:title="发起群聊"
+                android:icon="@drawable/ql"
+                />
+            <item
+                android:title="添加朋友"
+                android:icon="@drawable/jia"
+
+                />
+            <item
+                android:title="扫一扫"
+                android:icon="@drawable/sys"
+
+                />
+            <item
+                android:title="收付款"
+                android:icon="@drawable/sfk"
+               />
+            <item
+                android:title="帮助与反馈"
+                android:icon="@drawable/bz"
+
+                />
+        </menu>
+    </item>
+</menu>
